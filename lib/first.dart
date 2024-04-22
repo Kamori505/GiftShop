@@ -4,6 +4,7 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter_application_1/cart.dart';
 import 'package:flutter_application_1/product.dart';
 import 'package:flutter_application_1/favorite.dart';
+import 'package:flutter_application_1/profile.dart';
 import 'package:flutter_application_1/var.dart';
 
 
@@ -24,7 +25,7 @@ var MainColor= Color.fromRGBO(191, 218, 237, 1);
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: MainColor,
+        backgroundColor:Color.fromRGBO(191, 218, 237, 1),
         title: const Center(
           child: Text('Магазин',
           style: TextStyle(
@@ -177,7 +178,7 @@ var MainColor= Color.fromRGBO(191, 218, 237, 1);
                    )
                   ),
 
-
+                  //Переход в профиль
                    Container(
                    height: MediaQuery.of(context).size.height * 0.075, 
                    width: MediaQuery.of(context).size.width * 0.25,
@@ -190,7 +191,7 @@ var MainColor= Color.fromRGBO(191, 218, 237, 1);
                        ),
                      onPressed: () => {  Navigator.push(
                      context,
-                     MaterialPageRoute(builder: (context) => const FirstPage()),
+                     MaterialPageRoute(builder: (context) =>  PersonalPage()),
                      )
                      },           
                     ),

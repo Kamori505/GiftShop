@@ -20,7 +20,7 @@ class Product {
 
 Product product1 = Product()
   ..id = 1
-  ..title = "Title1"
+  ..title = "Товар1"
   ..price = 1240
   .. description = "Description"
   ..rating = 4
@@ -29,8 +29,8 @@ Product product1 = Product()
 
 Product product2 = Product()
   ..id = 2
-  ..title = "gfhfghnsfn"
-  ..price = 14360
+  ..title = "Товар2"
+  ..price = 1436
   .. description = "Description"
   ..rating = 3
   ..image = "image";
@@ -38,7 +38,7 @@ Product product2 = Product()
 
 Product product3 = Product()
   ..id = 3
-  ..title = "hgmdghmdj,"
+  ..title = "Товар3,"
   ..price = 1240
   .. description = "Description"
   ..rating = 4
@@ -47,8 +47,8 @@ Product product3 = Product()
 
 Product product4 = Product()
   ..id = 4
-  ..title = "4565688"
-  ..price = 1240
+  ..title = "Товар4"
+  ..price = 156
   .. description = "Description"
   ..rating = 4
   ..image = "image";
@@ -57,8 +57,8 @@ Product product4 = Product()
 
 Product product5 = Product()
   ..id = 5
-  ..title = "hg,mhmhj,"
-  ..price = 1240
+  ..title = "Товар5"
+  ..price = 1256
   .. description = "Description"
   ..rating = 4
   ..image = "image";
@@ -67,8 +67,8 @@ Product product5 = Product()
 
 Product product6 = Product()
   ..id = 6
-  ..title = "Titzfgmm,gle1"
-  ..price = 1240
+  ..title = "Товар6"
+  ..price = 1244
   .. description = "Description"
   ..rating = 4
   ..image = "image";
@@ -78,8 +78,8 @@ Product product6 = Product()
 
 Product product7 = Product()
   ..id = 7
-  ..title = "shfrDFNJdm"
-  ..price = 1240
+  ..title = "Товар7"
+  ..price = 5240
   .. description = "Description"
   ..rating = 4
   ..image = "image";
@@ -89,8 +89,8 @@ Product product7 = Product()
 
 Product product8 = Product()
   ..id = 8
-  ..title = "fdngjh.l"
-  ..price = 1240
+  ..title = "Товар8"
+  ..price = 1260
   .. description = "Description"
   ..rating = 4
   ..image = "image";
@@ -101,8 +101,8 @@ Product product8 = Product()
 
 Product product9 = Product()
   ..id = 9
-  ..title = "rfhmynhut"
-  ..price = 1240
+  ..title = "Товар9"
+  ..price = 140
   .. description = "Description"
   ..rating = 4
   ..image = "image";
@@ -112,18 +112,12 @@ Product product9 = Product()
 
 Product product10 = Product()
   ..id = 10
-  ..title = "sthm,jt"
-  ..price = 1240
+  ..title = "Товар10"
+  ..price = 124
   .. description = "Description"
   ..rating = 4
   ..image = "image";
  
-
-
-
-
-
-
 
 
 final List<Product> product = <Product>[product1  ,product2  ,product3  ,product4  ,product5 ,product6  ,product7  ,product8  ,product9  ,product10  ];

@@ -15,7 +15,7 @@ class ProductCard extends StatefulWidget {
 }
 
 class _ProductCardState extends State<ProductCard> {
-  int ProductId = 0 ;
+  //int ProductId = 0 ;
 
  
 
@@ -24,6 +24,8 @@ class _ProductCardState extends State<ProductCard> {
     super.initState();
     isFavorite = product[widget.index].isFavorite;
   }
+
+
   void toggleFavorite() {
   setState(() {
   isFavorite = !isFavorite;
@@ -44,6 +46,7 @@ class _ProductCardState extends State<ProductCard> {
     super.initState();
     isCart = product[widget.index].isCart;
   }
+  
   void toggleCard() {
   setState(() {
   isCart = !isCart;
@@ -90,7 +93,8 @@ class _ProductCardState extends State<ProductCard> {
               ),
                Align(
                 alignment: Alignment.centerLeft,
-                 child: IconButton(
+                 child:
+                  IconButton(
                   icon: Icon(
                     isCart ? Icons.shopping_cart : Icons.add_shopping_cart,
                     color: isCart ? Color.fromARGB(255, 98, 160, 190) : Colors.grey,

@@ -1,9 +1,8 @@
-
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/favorite.dart';
 import 'package:flutter_application_1/first.dart';
 import 'package:flutter_application_1/product.dart';
+import 'package:flutter_application_1/profile.dart';
 import 'package:flutter_application_1/var.dart';
 
 
@@ -17,7 +16,7 @@ class Cart extends StatelessWidget {
       
       // Верхняя колонка с названием
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 165, 210, 255),
+         backgroundColor:Color.fromRGBO(191, 218, 237, 1),
         title: const Center(
           child: Text('Корзина',
           style: TextStyle(
@@ -145,7 +144,7 @@ class Cart extends StatelessWidget {
                    )
                   ),
 
-
+                  //Переход в профиль
                    Container(
                    height: MediaQuery.of(context).size.height * 0.075, 
                    width: MediaQuery.of(context).size.width * 0.25,
@@ -158,7 +157,7 @@ class Cart extends StatelessWidget {
                        ),
                      onPressed: () => {  Navigator.push(
                      context,
-                     MaterialPageRoute(builder: (context) => const FirstPage()),
+                     MaterialPageRoute(builder: (context) =>  PersonalPage()),
                      )
                      },           
                     ),
